@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Lecture4 extends React.Component {
 	render () {
@@ -89,6 +90,12 @@ class Lecture4 extends React.Component {
                     <p>By the nineteenth paragraph of this lecture.*</p>
                     
                     <p><em>* Let the student turn and commit those paragraphs to memory.</em></p>
+                    
+                    <br />
+                    <br />
+                    
+                    <Link to="/lecture3" className="pull-left">Lecture Third</Link>
+                    <Link to="/lecture5" className="pull-right">Lecture Fifth</Link>
                 </div>
                 <div className="col-md-2"></div>
             </div>

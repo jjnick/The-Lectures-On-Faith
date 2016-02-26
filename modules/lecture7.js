@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Lecture7 extends React.Component {
 	render () {
@@ -50,6 +51,11 @@ class Lecture7 extends React.Component {
                     <span className="verse">19</span> By these sayings of the Apostle we learn, that it was by obtaining a knowledge of God, that men got all things which pertain to life and godliness; and this knowledge was the effect of faith. So that all things which pertain to life and godliness are the effects of faith.</p>
                     <p>
                     <span className="verse">20</span> From this we may extend as far as any circumstances may require whether on earth or in heaven, and we will find it the testimony of all inspired men, or heavenly messengers, that all things that pertain to life and godliness are the effects of faith and nothing else: all learning, wisdom, and prudence fail, and every thing else as a means of salvation but faith. This is the reason that the fishermen of Galilee could teach the world—because they sought by faith and by faith obtained. And this is the reason that Paul counted all things but filth and dross—what he formerly called his gain he called his loss; yea, and he counted all things but loss for the excellency of the knowledge of Christ Jesus the Lord. Philippians 3:7-10: Because, to obtain the faith by which he could enjoy the knowledge of Christ Jesus the Lord, he had to suffer the loss of all things: this is the reason that the Former Day Saints knew more, and understood more of heaven, and of heavenly things than all others beside, because this information is the effect of faith-to be obtained by no other means. And this is the reason, that men, as soon as they lose their faith, run into strifes, contentions, darkness and difficulties; for the knowledge which tends to life disappears with faith, but returns when faith returns; for when faith comes, it brings its train of attendants with it—apostles, prophets, evangelists, pastors, teachers, gifts, wisdom, knowledge, miracles, healings, tongues, interpretation of tongues, etc. All these appear when faith appears on the earth, and disappear when it disappears from the earth. For these are the effects of faith and always have, and always will attend it. For where faith is, there will the knowledge of God be also, with all things which pertain thereto—revelations, visions, and dreams, as well as every other necessary thing in order that the possessors of faith may be perfected and obtain salvation; for God must change, otherwise faith will prevail with him. And he who possesses it will, through it, obtain all necessary knowledge and wisdom until he shall know God, and the Lord Jesus Christ, whom he has sent: whom to know is eternal life: Amen.</p>
+                    
+                    <br />
+                    <br />
+                    
+                    <Link to="/lecture6" className="pull-left">Lecture Sixth</Link>
                 </div>
                 <div className="col-md-2"></div>
             </div>

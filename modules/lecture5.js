@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Lecture5 extends React.Component {
 	render () {
@@ -86,6 +87,12 @@ class Lecture5 extends React.Component {
                     
                     <h3>Question 18: How do you prove it?</h3><br />
                     <p>By the third paragraph of this lecture. Let the student commit this also.</p>
+                    
+                    <br />
+                    <br />
+                    
+                    <Link to="/lecture4" className="pull-left">Lecture Fourth</Link>
+                    <Link to="/lecture6" className="pull-right">Lecture Sixth</Link>
                 </div>
                 <div className="col-md-2"></div>
             </div>

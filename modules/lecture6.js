@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Lecture6 extends React.Component {
 	render () {
@@ -36,6 +37,12 @@ class Lecture6 extends React.Component {
                     <span className="verse">12</span> But those who have not made this sacrifice to God, do not know that the course which they pursue is well pleasing in his sight; for whatever may be their belief or their opinion, it is a matter of doubt and uncertainty in their mind; and where doubt and uncertainty is, there faith is not, nor can it be. For doubt and faith do not exist in the same person at the same time. So that persons whose minds are under doubts and fears cannot have unshaken confidence, and where unshaken confidence is not, there faith is weak, and where faith is weak, the persons will not be able to contend against all the opposition, tribulations and afflictions which they will have to encounter in order to be heirs of God, and joint heirs with Christ Jesus; and they will grow weary in their minds, and the adversary will have power over them and destroy them.</p>
                     <p>
                     <em>Note. This lecture is so plain, and the facts set forth so self-evident, that it is deemed unnecessary to form a catechism upon it: the student is therefore instructed to commit the whole to memory.</em></p>
+                    
+                    <br />
+                    <br />
+                    
+                    <Link to="/lecture5" className="pull-left">Lecture Fifth</Link>
+                    <Link to="/lecture7" className="pull-right">Lecture Seventh</Link>
                 </div>
                 <div className="col-md-2"></div>
             </div>

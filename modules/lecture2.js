@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Lecture2 extends React.Component {
 	render () {
@@ -167,6 +168,12 @@ class Lecture2 extends React.Component {
                     
                     <h3>Question 10: How do you know that the knowledge of the existence of God was communicated in this manner, throughout the different ages of the world?</h3><br />
                     <p>By the chronology obtained through the revelations of God.</p>
+                    
+                    <br />
+                    <br />
+                    
+                    <Link to="/lecture1" className="pull-left">Lecture First</Link>
+                    <Link to="/lecture3" className="pull-right">Lecture Third</Link>
                 </div>
                 <div className="col-md-2"></div>
             </div>

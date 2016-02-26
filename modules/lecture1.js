@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Lecture1 extends React.Component {
 	render () {
@@ -105,6 +106,12 @@ class Lecture1 extends React.Component {
                     
                     <h3>Question 13: How do you convey to the understanding more clearly, that faith is the first great governing principle, which has power, dominion and authority over all things?</h3> <br />
                     <p>By it they exist, by it they are upheld, by it they are changed, or by it they remain, agreeably to the will of God; and without it there is no power; and without power there could be no creation, nor existence! (1:24)</p>
+                    
+                    <br />
+                    <br />
+                    
+                    <Link to="/preface" className="pull-left">Preface</Link>
+                    <Link to="/lecture2" className="pull-right">Lecture 2nd</Link>
                 </div>
                 <div className="col-md-2"></div>
             </div>

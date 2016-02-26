@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Lecture3 extends React.Component {
 	render () {
@@ -140,6 +141,12 @@ class Lecture3 extends React.Component {
                     
                     <h3>Question 24: Is the character which God has given of himself uniform?</h3><br />
                     <p>It is, in all his revelations whether to the Former Day Saints, or to the Latter day saints, so that they all have the authority to exercise faith in him, and to expect by the exercise of their faith, to enjoy the same blessings. (3:26)</p>
+                    
+                    <br />
+                    <br />
+                    
+                    <Link to="/lecture2" className="pull-left">Lecture Second</Link>
+                    <Link to="/lecture4" className="pull-right">Lecture Fourth</Link>
                 </div>
                 <div className="col-md-8"></div>
             </div>
