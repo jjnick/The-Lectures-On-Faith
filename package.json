@@ -8,7 +8,7 @@
     "start:dev": "webpack-dev-server --inline --content-base public --history-api-fallback",
     "start:prod": "webpack && node server.js"
   },
-  "author": "Josh Nicholls",
+  "author": "Joshua Nicholls",
   "license": "ISC",
   "dependencies": {
     "compression": "^1.6.1",
