@@ -91,8 +91,8 @@ class Lecture5 extends React.Component {
                     <br />
                     <br />
                     
-                    <Link to="/lecture4" className="pull-left">Lecture Fourth</Link>
-                    <Link to="/lecture6" className="pull-right">Lecture Sixth</Link>
+                    <Link to="/lecture4" className="pull-left bottom-page-navigation">Lecture Fourth</Link>
+                    <Link to="/lecture6" className="pull-right bottom-page-navigation">Lecture Sixth</Link>
                 </div>
                 <div className="col-md-2"></div>
             </div>
