@@ -7,7 +7,7 @@ class Lecture3 extends React.Component {
 			<div>
                 <div className="col-md-2"></div>
                 <div className="lecture col-md-8">
-                    <h1 className="lecture-title text-center">Lecture Third</h1>
+                    <h1 className="lecture-title text-center" id="top">Lecture Third</h1>
                     <hr />
                     <h2 className="lecture-subtitle">The Character of God</h2>
                     
@@ -145,8 +145,9 @@ class Lecture3 extends React.Component {
                     <br />
                     <br />
                     
-                    <Link to="/lecture2" className="pull-left bottom-page-navigation">Lecture Second</Link>
-                    <Link to="/lecture4" className="pull-right bottom-page-navigation">Lecture Fourth</Link>
+                    <Link to="/lecture2#top" className="pull-left bottom-page-navigation">Lecture Second</Link>
+                    <Link to="/lecture4#top" className="pull-right bottom-page-navigation">Lecture Fourth</Link>
+                    <BackToTop />
                 </div>
                 <div className="col-md-8"></div>
             </div>
