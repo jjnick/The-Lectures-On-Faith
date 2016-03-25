@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
+import LinkScroll from 'react-linkscroll';
+import BackToTop from './backtotop';
 
 class Lecture5 extends React.Component {
 	render () {
@@ -7,7 +9,7 @@ class Lecture5 extends React.Component {
 			<div>
                 <div className="col-md-2"></div>
                 <div className="lecture col-md-8">
-                    <h1 className="lecture-title text-center">Lecture Fifth</h1>
+                    <h1 className="lecture-title text-center" id="top">Lecture Fifth</h1>
                     <hr />
                     <h2 className="lecture-subtitle">The Godhead: The Father, Son, and Holy Spirit</h2>
                     
@@ -93,6 +95,7 @@ class Lecture5 extends React.Component {
                     
                     <Link to="/lecture4" className="pull-left bottom-page-navigation">Lecture Fourth</Link>
                     <Link to="/lecture6" className="pull-right bottom-page-navigation">Lecture Sixth</Link>
+                    <BackToTop />
                 </div>
                 <div className="col-md-2"></div>
             </div>
