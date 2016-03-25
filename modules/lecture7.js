@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
+import LinkScroll from 'react-linkscroll';
+import BackToTop from './backtotop';
 
 class Lecture7 extends React.Component {
 	render () {
@@ -55,7 +57,7 @@ class Lecture7 extends React.Component {
                     <br />
                     <br />
                     
-                    <Link to="/lecture6#top" className="pull-left bottom-page-navigation">Lecture Sixth</Link>
+                    <Link to="/lecture6" className="pull-left bottom-page-navigation">Lecture Sixth</Link>
                     <BackToTop />
                 </div>
                 <div className="col-md-2"></div>
