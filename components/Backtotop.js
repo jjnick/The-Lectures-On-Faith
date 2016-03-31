@@ -12,10 +12,3 @@ class BackToTop extends React.Component {
 };
 
 export default BackToTop; 
-
-
-/*
-<br />
-                <LinkScroll href="#top" duration="1000">Back to Top</LinkScroll>\
-                
-*/
