@@ -1,5 +1,5 @@
 .lecture {
-    padding-bottom: 100px !important;
+    padding-bottom: 30px !important;
 }
 
 .verse {
@@ -33,17 +33,6 @@
     font-weight: 400;
 }
 
-/*
-h1 { 
-    font-family: 'Great Vibes', cursive, 'Times New Roman', Times, serif;
-    font-size: 450%;
-}
-
-h2 {
-    font-family: 'Vollkorn', serif, 'Times New Roman', Times, serif;
-    font-weight: 400;
-}
-*/
 h3 {
     font-family: 'Vollkorn', serif, 'Times New Roman', Times, serif !important;
     font-style: italic;
@@ -83,11 +72,59 @@ p {
     position: fixed;
     right: 10%;
     bottom: 5%;
-    z-index: 10;
-    color: #bdc3c7!important;
+    z-index: 2;
+    color: #bdc3c7 !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); 
 }
 
 .backToTop:hover {
     color: #2980b9 !important;
+}
+
+.footer {
+  position: relative;
+  margin-top: -60px; /* negative value of footer height */
+  height: 60px;
+  clear:both;
+  padding-top:17px;
+  background-color: #f8f8f8;
+  font-size: 75%;
+  font-style: italic;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+
+.modal.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.transition-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.transition-layer .bg-layer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-2%);
+    height: 100%;
+    width: 2500%;
+    background: url(../img/ink-blue.png) no-repeat 0 0;
+    background-size: 100% 100%;
 }
