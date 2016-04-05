@@ -65,6 +65,7 @@ p {
 
 .bottom-page-navigation {
     font-family: 'Vollkorn', serif, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
 }
 
 .backToTop {
